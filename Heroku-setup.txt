@@ -1,0 +1,29 @@
+Reference url: https://devcenter.heroku.com/articles/getting-started-with-python#start-a-console
+https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli
+
+Assumptions:
+Git Bash is set up on your local machine and you can clone a repo to your GitBash CLI
+Heroku CLI has been installed to work with your GitBash CLI
+
+1:   Create a Git Repsository that will hold your api [it can be a Web application, a python api, a flask server api written in python]
+2:  On GitBash cd to directory that will hold the git repo and type in: git clone <newly created git repo> [the repository folder and files in the remote repository will be copied to the local GitBash CLI.
+3:  CD into the new project folder to verify there is a readme.md file.  Copy or create the files that will be used to execute your api.  Once your application is tested and working it is ready to move to Git and then to the Heroku repository.
+4:  Heroku needs 3 files for an api to run:  They are:  runtime.txt, requirements.txt and Procfile.  You can add these files using Notepad or VisualCode - pay attention to the file extensions and remember that Procfile has no extension. 
+	runtime.txt has one line -> which is the python version i.e. python-3.6.13 
+	requirements.txt is the file that details all of the packages needed for your python api to run - we are working in a conda environment, to get a clean requirements file type in: pip list --format=freeze > requirements.txt - if there is an entry for setuptools==##.0.0.post2021#### - delete this entry.  Heroku will run it's own setuptools when loading packages.
+	Procfile has one line for these examples: web: gunicorn app:app
+
+5: After adding the files needed by Heroku, add the updates and new files to the Git repository first.  It is recommended to keep everything on the main branch to avoid file mismatches.  Git command sequence:
+	git add .
+	git commit -m "changes"
+	git push origin main
+
+6: Now login into the heroku cli in GitBash cli - type in: heroku login - a prompt will say to press any key - so press any key but <enter>.  The heroku login page is opened in a browser, to login and when you have logged in successfully you can close the web page and go back to the GitBash cli and continue
+
+7: You should be in the git project folder you pushed your changes from to the git repository.  At the command line type in heroku create and press <enter>  and a new heroku api will be be set up.  
+
+8: type in git remote -v to confirm that you have set up the heroku repository [by name] and the git repository that has your code is also named if you moving a python api. 
+
+9: if everything matches up you are ready to push the code from Git to Heroku.  Type in git push heroku main <enter> .  If all of the code, and the runtime.txt and requirements.txt files have no errors or dependencies that don't match up, you see the project build and deploy to the heroku api site assigned to you.
+
+

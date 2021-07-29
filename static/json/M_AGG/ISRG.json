@@ -1,0 +1,2861 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 5,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 5,
+          "values": [
+            "60e3719f244458478852d5a1",
+            "60e3719f244458478852d59e",
+            "60e3719f244458478852d5a0",
+            "60e3719f244458478852d5a2",
+            "60e3719f244458478852d59f"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-10",
+      "path": "2021-02-10",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-10",
+          "count": 5,
+          "values": [
+            "788.0900",
+            "787.0000",
+            "778.9155",
+            "525500",
+            "794.5100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-11",
+      "path": "2021-02-11",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-11",
+          "count": 5,
+          "values": [
+            "798.8300",
+            "794.0000",
+            "788.2200",
+            "427949",
+            "800.4000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-12",
+      "path": "2021-02-12",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-12",
+          "count": 5,
+          "values": [
+            "807.8100",
+            "799.2600",
+            "793.7916",
+            "430446",
+            "808.4200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-16",
+      "path": "2021-02-16",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-16",
+          "count": 5,
+          "values": [
+            "791.9500",
+            "810.0000",
+            "788.8900",
+            "673287",
+            "812.7900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-17",
+      "path": "2021-02-17",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-17",
+          "count": 5,
+          "values": [
+            "780.0600",
+            "782.0000",
+            "774.4200",
+            "372519",
+            "788.4000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-18",
+      "path": "2021-02-18",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-18",
+          "count": 5,
+          "values": [
+            "767.5300",
+            "774.5700",
+            "757.7900",
+            "643990",
+            "776.4200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-19",
+      "path": "2021-02-19",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-19",
+          "count": 5,
+          "values": [
+            "750.1500",
+            "773.2500",
+            "749.6800",
+            "746343",
+            "773.2500"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-22",
+      "path": "2021-02-22",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-22",
+          "count": 5,
+          "values": [
+            "741.4000",
+            "751.7900",
+            "737.0000",
+            "635263",
+            "752.7900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-23",
+      "path": "2021-02-23",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-23",
+          "count": 5,
+          "values": [
+            "744.7100",
+            "742.0000",
+            "732.1000",
+            "702115",
+            "748.6300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-24",
+      "path": "2021-02-24",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-24",
+          "count": 5,
+          "values": [
+            "758.7100",
+            "743.7300",
+            "738.2850",
+            "440223",
+            "759.6700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-25",
+      "path": "2021-02-25",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-25",
+          "count": 5,
+          "values": [
+            "741.7900",
+            "754.8600",
+            "731.9000",
+            "443822",
+            "758.8900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-02-26",
+      "path": "2021-02-26",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-02-26",
+          "count": 5,
+          "values": [
+            "736.8000",
+            "743.9000",
+            "726.3100",
+            "631447",
+            "747.7042"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-01",
+      "path": "2021-03-01",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-01",
+          "count": 5,
+          "values": [
+            "759.2100",
+            "749.0400",
+            "745.6650",
+            "559227",
+            "760.7700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-02",
+      "path": "2021-03-02",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-02",
+          "count": 5,
+          "values": [
+            "750.0000",
+            "760.0000",
+            "746.7800",
+            "390993",
+            "760.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-03",
+      "path": "2021-03-03",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-03",
+          "count": 5,
+          "values": [
+            "727.1500",
+            "746.0600",
+            "721.4810",
+            "507117",
+            "746.0600"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-04",
+      "path": "2021-03-04",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-04",
+          "count": 5,
+          "values": [
+            "709.1700",
+            "725.0000",
+            "699.0300",
+            "809226",
+            "727.2400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-05",
+      "path": "2021-03-05",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-05",
+          "count": 5,
+          "values": [
+            "713.3700",
+            "712.2500",
+            "687.2400",
+            "759138",
+            "718.4400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-08",
+      "path": "2021-03-08",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-08",
+          "count": 5,
+          "values": [
+            "684.9000",
+            "705.3500",
+            "682.4000",
+            "639192",
+            "710.5700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-09",
+      "path": "2021-03-09",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-09",
+          "count": 5,
+          "values": [
+            "702.8000",
+            "697.5400",
+            "690.0100",
+            "696923",
+            "710.2500"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-10",
+      "path": "2021-03-10",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-10",
+          "count": 5,
+          "values": [
+            "719.8100",
+            "720.9800",
+            "712.8300",
+            "732710",
+            "727.6100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-11",
+      "path": "2021-03-11",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-11",
+          "count": 5,
+          "values": [
+            "732.0000",
+            "730.3600",
+            "724.3569",
+            "497640",
+            "738.9800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-12",
+      "path": "2021-03-12",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-12",
+          "count": 5,
+          "values": [
+            "733.9900",
+            "721.1200",
+            "720.0000",
+            "489055",
+            "736.4100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-15",
+      "path": "2021-03-15",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-15",
+          "count": 5,
+          "values": [
+            "735.0600",
+            "727.3200",
+            "725.0500",
+            "400920",
+            "737.5500"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-16",
+      "path": "2021-03-16",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-16",
+          "count": 5,
+          "values": [
+            "726.6300",
+            "740.4100",
+            "721.5100",
+            "425825",
+            "741.5000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-17",
+      "path": "2021-03-17",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-17",
+          "count": 5,
+          "values": [
+            "724.6400",
+            "724.3300",
+            "712.8000",
+            "352153",
+            "728.9700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-18",
+      "path": "2021-03-18",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-18",
+          "count": 5,
+          "values": [
+            "699.3200",
+            "715.7200",
+            "695.0600",
+            "646924",
+            "719.5700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-19",
+      "path": "2021-03-19",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-19",
+          "count": 5,
+          "values": [
+            "707.4900",
+            "701.5000",
+            "695.3900",
+            "792568",
+            "714.7200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-22",
+      "path": "2021-03-22",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-22",
+          "count": 5,
+          "values": [
+            "714.7300",
+            "707.7200",
+            "703.1400",
+            "436566",
+            "721.1550"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-23",
+      "path": "2021-03-23",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-23",
+          "count": 5,
+          "values": [
+            "710.8200",
+            "716.5100",
+            "707.6500",
+            "335004",
+            "720.9800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-24",
+      "path": "2021-03-24",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-24",
+          "count": 5,
+          "values": [
+            "711.0700",
+            "712.0000",
+            "705.4900",
+            "484116",
+            "720.3400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-25",
+      "path": "2021-03-25",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-25",
+          "count": 5,
+          "values": [
+            "704.5000",
+            "710.6493",
+            "693.6200",
+            "460034",
+            "714.4200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-26",
+      "path": "2021-03-26",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-26",
+          "count": 5,
+          "values": [
+            "730.7500",
+            "707.0800",
+            "704.7500",
+            "569255",
+            "731.8400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-29",
+      "path": "2021-03-29",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-29",
+          "count": 5,
+          "values": [
+            "723.9500",
+            "729.4500",
+            "717.3250",
+            "450350",
+            "734.1400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-30",
+      "path": "2021-03-30",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-30",
+          "count": 5,
+          "values": [
+            "726.4900",
+            "719.1100",
+            "714.5200",
+            "480832",
+            "728.9900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-03-31",
+      "path": "2021-03-31",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-03-31",
+          "count": 5,
+          "values": [
+            "738.9400",
+            "728.5600",
+            "727.2600",
+            "565101",
+            "743.9300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-01",
+      "path": "2021-04-01",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-01",
+          "count": 5,
+          "values": [
+            "747.6000",
+            "749.9900",
+            "745.8800",
+            "452569",
+            "758.0700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-05",
+      "path": "2021-04-05",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-05",
+          "count": 5,
+          "values": [
+            "765.9300",
+            "750.2100",
+            "750.2100",
+            "565914",
+            "770.6300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-06",
+      "path": "2021-04-06",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-06",
+          "count": 5,
+          "values": [
+            "766.8500",
+            "767.1300",
+            "760.8000",
+            "385267",
+            "776.2650"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-07",
+      "path": "2021-04-07",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-07",
+          "count": 5,
+          "values": [
+            "761.0200",
+            "767.3900",
+            "759.5700",
+            "367031",
+            "771.0150"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-08",
+      "path": "2021-04-08",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-08",
+          "count": 5,
+          "values": [
+            "770.3500",
+            "765.9500",
+            "765.9500",
+            "302023",
+            "774.1000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-09",
+      "path": "2021-04-09",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-09",
+          "count": 5,
+          "values": [
+            "784.4800",
+            "773.5800",
+            "768.4801",
+            "355327",
+            "786.3200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-12",
+      "path": "2021-04-12",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-12",
+          "count": 5,
+          "values": [
+            "779.2600",
+            "778.1300",
+            "777.3150",
+            "336195",
+            "785.6600"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-13",
+      "path": "2021-04-13",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-13",
+          "count": 5,
+          "values": [
+            "794.4700",
+            "778.9500",
+            "778.9500",
+            "428782",
+            "796.8250"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-14",
+      "path": "2021-04-14",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-14",
+          "count": 5,
+          "values": [
+            "785.8300",
+            "792.0000",
+            "784.8000",
+            "371013",
+            "800.2450"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-15",
+      "path": "2021-04-15",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-15",
+          "count": 5,
+          "values": [
+            "804.7200",
+            "792.6600",
+            "789.3000",
+            "412328",
+            "808.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-16",
+      "path": "2021-04-16",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-16",
+          "count": 5,
+          "values": [
+            "812.5700",
+            "807.6500",
+            "801.8500",
+            "539484",
+            "813.4000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-19",
+      "path": "2021-04-19",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-19",
+          "count": 5,
+          "values": [
+            "811.1900",
+            "808.7700",
+            "802.5200",
+            "519325",
+            "815.6800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-20",
+      "path": "2021-04-20",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-20",
+          "count": 5,
+          "values": [
+            "811.1100",
+            "806.6600",
+            "806.6500",
+            "693167",
+            "824.5300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-21",
+      "path": "2021-04-21",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-21",
+          "count": 5,
+          "values": [
+            "891.3800",
+            "840.9200",
+            "820.0000",
+            "2097929",
+            "893.7900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-22",
+      "path": "2021-04-22",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-22",
+          "count": 5,
+          "values": [
+            "859.6600",
+            "884.8900",
+            "858.5600",
+            "1214466",
+            "887.8850"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-23",
+      "path": "2021-04-23",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-23",
+          "count": 5,
+          "values": [
+            "875.5300",
+            "851.1900",
+            "842.7200",
+            "833546",
+            "882.9150"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-26",
+      "path": "2021-04-26",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-26",
+          "count": 5,
+          "values": [
+            "865.9400",
+            "866.4400",
+            "860.1740",
+            "584516",
+            "872.0700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-27",
+      "path": "2021-04-27",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-27",
+          "count": 5,
+          "values": [
+            "861.3800",
+            "867.0000",
+            "858.5000",
+            "510362",
+            "867.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-28",
+      "path": "2021-04-28",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-28",
+          "count": 5,
+          "values": [
+            "868.7900",
+            "862.5700",
+            "860.9800",
+            "570701",
+            "875.8300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-29",
+      "path": "2021-04-29",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-29",
+          "count": 5,
+          "values": [
+            "863.2200",
+            "873.7000",
+            "857.8200",
+            "384835",
+            "873.7000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-04-30",
+      "path": "2021-04-30",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-04-30",
+          "count": 5,
+          "values": [
+            "865.0000",
+            "856.9700",
+            "855.2700",
+            "477669",
+            "865.9100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-03",
+      "path": "2021-05-03",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-03",
+          "count": 5,
+          "values": [
+            "867.5500",
+            "873.4700",
+            "860.1400",
+            "377836",
+            "874.9900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-04",
+      "path": "2021-05-04",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-04",
+          "count": 5,
+          "values": [
+            "848.9900",
+            "861.7200",
+            "834.1050",
+            "656972",
+            "862.0800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-05",
+      "path": "2021-05-05",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-05",
+          "count": 5,
+          "values": [
+            "838.4000",
+            "854.1300",
+            "836.5300",
+            "489466",
+            "860.9800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-06",
+      "path": "2021-05-06",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-06",
+          "count": 5,
+          "values": [
+            "842.4600",
+            "834.2600",
+            "825.6600",
+            "421267",
+            "842.6900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-07",
+      "path": "2021-05-07",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-07",
+          "count": 5,
+          "values": [
+            "857.0900",
+            "845.3000",
+            "845.3000",
+            "490596",
+            "863.2750"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-10",
+      "path": "2021-05-10",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-10",
+          "count": 5,
+          "values": [
+            "834.7900",
+            "859.0300",
+            "833.0600",
+            "502795",
+            "862.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-11",
+      "path": "2021-05-11",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-11",
+          "count": 5,
+          "values": [
+            "836.7500",
+            "823.1600",
+            "820.9900",
+            "484667",
+            "840.8150"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-12",
+      "path": "2021-05-12",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-12",
+          "count": 5,
+          "values": [
+            "811.7900",
+            "824.0500",
+            "804.2700",
+            "569458",
+            "825.4800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-13",
+      "path": "2021-05-13",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-13",
+          "count": 5,
+          "values": [
+            "820.5900",
+            "813.2100",
+            "813.2100",
+            "395502",
+            "827.0700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-14",
+      "path": "2021-05-14",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-14",
+          "count": 5,
+          "values": [
+            "833.3800",
+            "822.9682",
+            "821.5100",
+            "362269",
+            "839.4350"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-17",
+      "path": "2021-05-17",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-17",
+          "count": 5,
+          "values": [
+            "817.0100",
+            "828.7800",
+            "811.6000",
+            "682081",
+            "828.7800"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-18",
+      "path": "2021-05-18",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-18",
+          "count": 5,
+          "values": [
+            "814.6200",
+            "821.6600",
+            "813.5700",
+            "529383",
+            "824.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-19",
+      "path": "2021-05-19",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-19",
+          "count": 5,
+          "values": [
+            "816.9600",
+            "801.7400",
+            "797.7100",
+            "491266",
+            "817.0300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-20",
+      "path": "2021-05-20",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-20",
+          "count": 5,
+          "values": [
+            "832.6600",
+            "821.6800",
+            "819.7400",
+            "1078673",
+            "836.9100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-21",
+      "path": "2021-05-21",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-21",
+          "count": 5,
+          "values": [
+            "824.9900",
+            "840.0000",
+            "824.0800",
+            "507030",
+            "843.0100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-24",
+      "path": "2021-05-24",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-24",
+          "count": 5,
+          "values": [
+            "834.9200",
+            "833.0500",
+            "832.2600",
+            "725332",
+            "840.3600"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-25",
+      "path": "2021-05-25",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-25",
+          "count": 5,
+          "values": [
+            "846.0100",
+            "840.2900",
+            "838.3800",
+            "676351",
+            "846.7600"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-26",
+      "path": "2021-05-26",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-26",
+          "count": 5,
+          "values": [
+            "839.3800",
+            "847.1100",
+            "835.1950",
+            "495144",
+            "849.6900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-27",
+      "path": "2021-05-27",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-27",
+          "count": 5,
+          "values": [
+            "834.3600",
+            "838.7000",
+            "829.1950",
+            "1306795",
+            "846.5400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-05-28",
+      "path": "2021-05-28",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-05-28",
+          "count": 5,
+          "values": [
+            "842.1800",
+            "838.9900",
+            "838.9900",
+            "525294",
+            "854.3200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-01",
+      "path": "2021-06-01",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-01",
+          "count": 5,
+          "values": [
+            "836.0400",
+            "852.7700",
+            "828.7500",
+            "497894",
+            "852.7700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-02",
+      "path": "2021-06-02",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-02",
+          "count": 5,
+          "values": [
+            "821.5400",
+            "836.2200",
+            "818.9300",
+            "398650",
+            "837.9000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-03",
+      "path": "2021-06-03",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-03",
+          "count": 5,
+          "values": [
+            "816.6500",
+            "812.8900",
+            "811.1100",
+            "420487",
+            "824.8400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-04",
+      "path": "2021-06-04",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-04",
+          "count": 5,
+          "values": [
+            "831.4500",
+            "821.5600",
+            "821.1300",
+            "458166",
+            "835.7900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-07",
+      "path": "2021-06-07",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-07",
+          "count": 5,
+          "values": [
+            "831.1200",
+            "835.1600",
+            "828.8100",
+            "362957",
+            "843.1900"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-08",
+      "path": "2021-06-08",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-08",
+          "count": 5,
+          "values": [
+            "833.6700",
+            "835.3500",
+            "826.1900",
+            "414275",
+            "841.1400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-09",
+      "path": "2021-06-09",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-09",
+          "count": 5,
+          "values": [
+            "840.2400",
+            "836.2800",
+            "834.7500",
+            "361696",
+            "843.9695"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-10",
+      "path": "2021-06-10",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-10",
+          "count": 5,
+          "values": [
+            "859.1400",
+            "843.0700",
+            "841.1400",
+            "396421",
+            "859.6300"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-11",
+      "path": "2021-06-11",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-11",
+          "count": 5,
+          "values": [
+            "864.2700",
+            "860.0000",
+            "855.3700",
+            "445172",
+            "864.3000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-14",
+      "path": "2021-06-14",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-14",
+          "count": 5,
+          "values": [
+            "872.7900",
+            "862.2900",
+            "859.6400",
+            "421383",
+            "873.4100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-15",
+      "path": "2021-06-15",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-15",
+          "count": 5,
+          "values": [
+            "872.3600",
+            "875.0000",
+            "869.6600",
+            "437127",
+            "875.3450"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-16",
+      "path": "2021-06-16",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-16",
+          "count": 5,
+          "values": [
+            "871.4200",
+            "874.3600",
+            "865.0000",
+            "446693",
+            "881.6200"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-17",
+      "path": "2021-06-17",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-17",
+          "count": 5,
+          "values": [
+            "885.0100",
+            "869.2400",
+            "866.3822",
+            "522440",
+            "891.2700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-18",
+      "path": "2021-06-18",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-18",
+          "count": 5,
+          "values": [
+            "878.8600",
+            "880.5300",
+            "875.6000",
+            "801193",
+            "886.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-21",
+      "path": "2021-06-21",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-21",
+          "count": 5,
+          "values": [
+            "894.0000",
+            "884.8600",
+            "875.5800",
+            "474667",
+            "900.9500"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-22",
+      "path": "2021-06-22",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-22",
+          "count": 5,
+          "values": [
+            "901.9600",
+            "895.2700",
+            "887.0750",
+            "449895",
+            "903.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-23",
+      "path": "2021-06-23",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-23",
+          "count": 5,
+          "values": [
+            "905.4200",
+            "900.0000",
+            "899.1900",
+            "430805",
+            "911.3550"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-24",
+      "path": "2021-06-24",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-24",
+          "count": 5,
+          "values": [
+            "904.5700",
+            "913.2900",
+            "900.3600",
+            "341011",
+            "913.7100"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-25",
+      "path": "2021-06-25",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-25",
+          "count": 5,
+          "values": [
+            "908.3500",
+            "905.0000",
+            "903.6500",
+            "434468",
+            "912.1850"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-28",
+      "path": "2021-06-28",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-28",
+          "count": 5,
+          "values": [
+            "912.4100",
+            "909.7800",
+            "904.5000",
+            "415164",
+            "914.5500"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-29",
+      "path": "2021-06-29",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-29",
+          "count": 5,
+          "values": [
+            "920.7200",
+            "915.0000",
+            "910.9801",
+            "413768",
+            "926.0400"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-06-30",
+      "path": "2021-06-30",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-06-30",
+          "count": 5,
+          "values": [
+            "919.6400",
+            "920.0500",
+            "912.0200",
+            "539797",
+            "925.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-07-01",
+      "path": "2021-07-01",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-07-01",
+          "count": 5,
+          "values": [
+            "927.4600",
+            "917.5300",
+            "916.4900",
+            "364534",
+            "928.0000"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "2021-07-02",
+      "path": "2021-07-02",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "2021-07-02",
+          "count": 5,
+          "values": [
+            "938.1600",
+            "930.8800",
+            "929.3100",
+            "338529",
+            "939.4700"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "index",
+      "path": "index",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "index",
+          "count": 5,
+          "values": [
+            "4. close",
+            "1. open",
+            "3. low",
+            "5. volume",
+            "2. high"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 5
+}

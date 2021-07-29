@@ -1,0 +1,1284 @@
+{"names":["XOM", "CVX", "FSLR", "OXY", "KMI", "DUK", "XEL", "LNG", "COP", "ENB", "NKE", "MCD", "DIS", "SBUX", "AMZN", "KO", "PEP", "COST", "HD", "LOW", "VRTX", "ISRG", "UNH", "TDOC", "NVAX", "PFE", "MRNA", "AZN", "GSK", "NVS", "WFC", "JPM", "BAC", "GS", "BRK.A", "MS", "C", "USB", "V", "AXP", "GOOGL", "MSFT", "CRM", "FB", "IBM", "CSCO", "XRX", "ORCL", "QCOM", "DELL"],
+  "metadata":[{"id":"XOM","industry":"Energy", "symbol":"XOM","name":"ExxonMobil","exchange":"NYSE"},
+    {"id": "CVX","industry":"Energy", "symbol": "CVX", "name": "Chevron", "exchange": "NYSE"}, 
+    {"id": "FSLR","industry":"Energy", "symbol": "FSLR", "name": "First Solar", "exchange": "NASDAQ"}, 
+    {"id":"OXY","industry":"Energy", "symbol": "OXY", "name": "Occidental Petroleum", "exchange": "NYSE"},    
+    {"id": "KMI","industry":"Energy", "symbol": "KMI", "name": "Kinder Morgan", "exchange": "NYSE"}, 
+    {"id": "DUK","industry":"Energy", "symbol": "DUK", "name": "Duke Energy", "exchange": "NYSE"}, 
+    {"id": "XEL","industry":"Energy", "symbol": "XEL", "name": "Xcel Energy", "exchange": "NASDAQ"}, 
+    {"id": "LNG","industry":"Energy", "symbol": "LNG", "name": "Cheniere Energy", "exchange": "NYSE"}, 
+    {"id": "COP","industry":"Energy", "symbol": "COP", "name": "Conoco Phillips", "exchange": "NYSE"}, 
+    {"id": "ENB","industry":"Energy", "symbol": "ENB", "name": "Enbridge", "exchange": "NYSE"}, 
+    {"id": "NKE","industry":"Retail", "symbol": "NKE", "name": "Nike", "exchange": "NYSE"},
+    {"id": "MCD","industry":"Retail", "symbol": "MCD", "name": "McDonald's", "exchange": "NYSE"},
+    {"id": "DIS","industry":"Retail", "symbol": "DIS", "name": "Disney", "exchange": "NYSE"},
+    {"id": "SBUX","industry":"Retail", "symbol": "SBUX", "name": "Starbucks", "exchange": "NASDAQ"},
+    {"id": "AMZN","industry":"Retail", "symbol": "AMZN", "name": "Amazon", "exchange": "NASDAQ"},
+    {"id": "KO","industry":"Retail", "symbol": "KO", "name": "Coca-Cola", "exchange": "NASDAQ"},
+    {"id": "PEP","industry":"Retail", "symbol": "PEP", "name": "Pepsico", "exchange": "NASDAQ"},
+    {"id": "COST","industry":"Retail", "symbol": "COST", "name": "Costco Wholesale", "exchange": "NASDAQ"},
+    {"id": "HD","industry":"Retail", "symbol": "HD", "name": "Home Depot", "exchange": "NYSE"},
+    {"id": "LOW","industry":"Retail", "symbol": "LOW", "name": "Lowe's", "exchange": "NYSE"},
+    {"id": "VRTX","industry":"Healthcare", "symbol": "VRTX", "name": "Vertex Pharmaceuticals", "exchange": "NASDAQ"}, 
+    {"id": "ISRG","industry":"Healthcare", "symbol": "ISRG", "name": "Intuitive Surgical", "exchange": "NASDAQ"}, 
+    {"id": "UNH","industry":"Healthcare", "symbol": "UNH", "name": "United Health Group", "exchange": "NYSE"}, 
+    {"id": "TDOC","industry":"Healthcare", "symbol": "TDOC", "name": "Teladoc Health", "exchange": "NYSE"}, 
+    {"id": "NVAX","industry":"Healthcare", "symbol": "NVAX", "name": "Novavax", "exchange": "NASDAQ"}, 
+    {"id": "PFE","industry":"Healthcare", "symbol": "PFE", "name": "Pfizer", "exchange": "NYSE"}, 
+    {"id": "MRNA","industry":"Healthcare", "symbol": "MRNA", "name": "Moderna", "exchange": "NASDAQ"}, 
+    {"id": "AZN","industry":"Healthcare", "symbol": "AZN", "name": "Astrazeneca", "exchange": "NASDAQ"}, 
+    {"id": "GSK","industry":"Healthcare", "symbol": "GSK", "name": "GlaxoSmithKline", "exchange": "NYSE"}, 
+    {"id": "NVS","industry":"Healthcare", "symbol": "NVS", "name": "Novartis", "exchange": "NYSE"},  
+    {"id": "WFC","industry":"Financials", "symbol": "WFC", "name": "Wells Fargo","exchange": "NYSE"}, 
+    {"id": "JPM","industry":"Financials", "symbol": "JPM", "name": "JPMorgan Chase","exchange": "NYSE"}, 
+    {"id": "BAC","industry":"Financials", "symbol": "BAC", "name": "Bank of America","exchange": "NYSE"}, 
+    {"id": "GS","industry":"Financials", "symbol": "GS", "name": "Goldman Sachs","exchange": "NYSE"}, 
+    {"id": "BRK.A","industry":"Financials", "symbol": "BRK.A", "name": "Berkshire Hathaway","exchange": "NYSE"}, 
+    {"id": "MS","industry":"Financials", "symbol": "MS", "name": "Morgan Stanley","exchange": "NYSE"}, 
+    {"id": "C","industry":"Financials", "symbol": "C", "name": "Citigroup","exchange": "NYSE"}, 
+    {"id": "USB","industry":"Financials", "symbol": "USB", "name": "U. S. Bancorp","exchange": "NYSE"}, 
+    {"id": "V","industry":"Financials", "symbol": "V", "name": "Visa","exchange": "NYSE"}, 
+    {"id": "AXP","industry":"Financials", "symbol": "AXP", "name": "American Express","exchange": "NYSE"}, 
+    {"id": "GOOGL","industry":"Information Technology", "symbol": "GOOGL", "name": "GOOGLE","exchange":"NASDAQ"}, 
+    {"id": "MSFT","industry":"Information Technology", "symbol": "MSFT", "name": "Microsoft","exchange": "NASDAQ"}, 
+    {"id": "CRM","industry":"Information Technology", "symbol": "CRM", "name": "Salesforce","exchange": "NYSE"}, 
+    {"id": "FB","industry":"Information Technology", "symbol": "FB", "name": "Facebook","exchange": "NASDAQ"}, 
+    {"id": "IBM","industry":"Information Technology", "symbol": "IBM", "name": "IBM","exchange": "NYSE"}, 
+    {"id": "CSCO","industry":"Information Technology", "symbol": "CSCO", "name": "Cisco","exchange": "NASDAQ"}, 
+    {"id": "XRX","industry":"Information Technology", "symbol": "XRX", "name": "Xerox","exchange": "NYSE"}, 
+    {"id": "ORCL","industry":"Information Technology", "symbol": "ORCL", "name": "Oracle","exchange": "NYSE"}, 
+    {"id": "QCOM","industry":"Information Technology", "symbol": "QCOM", "name": "Qualcomm","exchange": "NASDAQ"}, 
+    {"id": "DELL","industry":"Information Technology", "symbol": "DELL", "name": "Dell","exchange": "NYSE"}
+     ],
+  "samples":[{"id": "XOM", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+     ]}, 
+  
+  {"id": "CVX", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  
+  {"id": "FSLR", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "OXY", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "KMI", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "DUK", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "XEL", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "LNG", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "COP", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "ENB", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+
+
+ {"id": "NKE", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+  7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "MCD", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "DIS", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "SBUX", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "AMZN", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "KO", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+
+
+
+ {"id": "PEP", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+  7682381,
+  7009346,
+  5875530,
+  5838603,
+  5481578,
+  5439449,
+  5388551,
+  5247737,
+  5136531,
+  4936410
+ ], "otu_labels":[
+  "2021-04-29",
+  "2021-04-30",
+  "2021-05-03",
+  "2021-05-10",
+  "2021-03-04",
+  "2021-05-04",
+  "2021-03-05",
+  "2021-06-18",
+  "2021-06-17",
+  "2021-05-12"
+  ]}, 
+
+  {"id": "COST", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "HD", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "LOW", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "VRTX", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "ISRG", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+  {"id": "UNH", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "TDOC", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "NVAX", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "PFE", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "MRNA", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "AZN", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "GSK", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "NVS", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "WFC", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "JPM", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "BAC", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "GS", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+  {"id": "BRK.A", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+  {"id": "MS", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "C", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "USB", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "V", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "AXP", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "GOOGL", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "MSFT", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+  ]}, 
+
+  {"id": "CRM", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+  {"id": "FB", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "IBM", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "CSCO", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "XRX", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+  {"id": "ORCL", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "QCOM", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "DELL", "otu_ids": [1,2,3,4,5,6,7,8,9,10], "sample_values":[
+    
+    7682381,
+    7009346,
+    5875530,
+    5838603,
+    5481578,
+    5439449,
+    5388551,
+    5247737,
+    5136531,
+    4936410
+   ], "otu_labels":[
+    "2021-04-29",
+    "2021-04-30",
+    "2021-05-03",
+    "2021-05-10",
+    "2021-03-04",
+    "2021-05-04",
+    "2021-03-05",
+    "2021-06-18",
+    "2021-06-17",
+    "2021-05-12"
+    
+  ]}, 
+
+  {"id": "1275", "otu_ids": [1167, 1208, 3643, 1950, 3660, 352, 2318, 408, 1977, 1189, 2859, 781, 854, 3007, 2264, 1314, 874, 2722, 3450, 909, 2184, 482, 2539, 2419, 314, 1795, 2782, 165, 2964, 1193, 2651, 1259, 161, 180, 1169, 3636, 3626, 2985, 944, 2404, 2396, 190, 1083, 2167, 2158, 2038, 2025, 771, 146, 1256, 833, 1178, 96], "sample_values": [159, 103, 59, 30, 29, 27, 21, 21, 21, 19, 18, 16, 16, 14, 14, 14, 14, 12, 11, 11, 9, 9, 9, 8, 8, 8, 7, 6, 5, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "otu_labels": ["Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Jonquetella", "Bacteria;Firmicutes;Clostridia", "Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Pyramidobacter", "Bacteria", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria", "Bacteria;Firmicutes;Clostridia;Clostridiales", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Peptoniphilus", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Actinomycetaceae;Mobiluncus", "Bacteria;Firmicutes;Clostridia;Clostridiales;Veillonellaceae;Succiniclasticum", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Prevotellaceae;Prevotella", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Actinomycetaceae;Varibaculum", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Finegoldia", "Bacteria;Proteobacteria;Epsilonproteobacteria;Campylobacterales;Campylobacteraceae;Campylobacter", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI", "Bacteria", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria", "Bacteria;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Peptoniphilus", "Bacteria", "Bacteria;Firmicutes;Clostridia;Clostridiales;Veillonellaceae", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria", "Bacteria", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Jonquetella", "Bacteria;Synergistetes;Synergistia;Synergistales;Synergistaceae;Jonquetella", "Bacteria;Firmicutes;Clostridia;Clostridiales;Veillonellaceae;Dialister", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria;Firmicutes;Clostridia;Clostridiales;IncertaeSedisXI;Anaerococcus", "Bacteria", "Bacteria;Bacteroidetes", "Bacteria;Firmicutes;Clostridia;Clostridiales", "Bacteria;Firmicutes;Clostridia;Clostridiales", "Bacteria;Firmicutes;Clostridia;Clostridiales", "Bacteria;Firmicutes;Clostridia;Clostridiales", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales", "Bacteria", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Actinomycetaceae", "Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Porphyromonadaceae;Porphyromonas", "Bacteria"]}]
+}

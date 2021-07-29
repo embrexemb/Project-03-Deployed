@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Comparing Stocks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://bootswatch.com/5/spacelab/bootstrap.css">
+  
+    <link rel="stylesheet" href="https://bootswatch.com/_vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
+    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+    <!-- Jquery reference -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--This function calls the header and footer-->
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+
+    </script> 
+
+  </head>
+
+  <body>
+    
+    <!--jquery loads the header to this id-->
+    <div id="header"></div>
+
+      <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <h1>Dynamic Scatter Plot</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12  col-md-9">
+              <div id="scatter">
+                <!-- We append our chart here. -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12  col-md-9">
+              <div class="article">
+                <h2>Looking at Stocks Over Time</h2>
+              </div>
+            </div>
+          </div>
+    
+        
+    <!--jquery loads the footer to this id-->
+    <div id="footer"></div>
+      
+    </div>
+
+
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+   <script type="text/javascript" src="../static/js/app.js"></script>
+
+  </body>
+</html>

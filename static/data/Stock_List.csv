@@ -1,0 +1,52 @@
+﻿Industry,Name,Symbol,Exchange
+Energy,First Solar,FSLR,NASDAQ
+Energy,Xcel Energy,XEL,NASDAQ
+Retail,Starbucks,SBUX,NASDAQ
+Retail,Amazon,AMZN,NASDAQ
+Retail,PepsiCo,PEP,NASDAQ
+Retail,Costco Wholesale,COST,NASDAQ
+Healthcare,Vertex Pharmaceuticals,VRTX,NASDAQ
+Healthcare,Intuitive Surgical,ISRG,NASDAQ
+Healthcare,Novavax,NVAX,NASDAQ
+Healthcare,Moderna ,MRNA,NASDAQ
+Healthcare,Astrazeneca ,AZN,NASDAQ
+Information Technology,Google,GOOGL,NASDAQ
+Information Technology,Microsoft,MSFT,NASDAQ
+Information Technology,Facebook,FB,NASDAQ
+Information Technology,Cisco,CSCO,NASDAQ
+Information Technology,Qualcomm,QCOM,NASDAQ
+,,,
+Retail,Lowe's,LOW,NYSE
+Energy,ExxonMobil,XOM,NYSE
+Energy,Chevron,CVX,NYSE
+Energy,Occidental Petroleum,OXY,NYSE
+Energy,Kinder Morgan,KMI,NYSE
+Energy,Duke Energy,DUK,NYSE
+Energy,Cheniere Energy,LNG,NYSE
+Energy,ConocoPhillips,COP,NYSE
+Energy,Enbridge,ENB,NYSE
+Retail,Nike,NKE,NYSE
+Retail,McDonald's,MCD,NYSE
+Retail,Disney,DIS,NYSE
+Retail,Coca-Cola,KO,NYSE
+Retail,The Home Depot,HD,NYSE
+Healthcare,UnitedHealth Group,UNH,NYSE
+Healthcare,Teladoc Health,TDOC,NYSE
+Healthcare,Pfizer,PFE,NYSE
+Healthcare,GlaxoSmithKline,GSK,NYSE
+Healthcare,Novartiz,NVS,NYSE
+Financials,Wells Fago,WFC,NYSE
+Financials,JPMorgan Chase,JPM,NYSE
+Financials,Bank of America,BAC,NYSE
+Financials,Goldman Sachs,GS,NYSE
+Financials,Berkshire Hathaway,BRK.A,NYSE
+Financials,Morgan Stanley,MS,NYSE
+Financials,Citigroup,C,NYSE
+Financials,U.S. Bancorp,USB,NYSE
+Financials,Visa,V,NYSE
+Financials,American Express,AXP,NYSE
+Information Technology,Salesforce,CRM,NYSE
+Information Technology,IBM,IBM,NYSE
+Information Technology,Xerox,XRX,NYSE
+Information Technology,Oracle,ORCL,NYSE
+Information Technology,Dell,DELL,NYSE
