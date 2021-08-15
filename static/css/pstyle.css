@@ -1,0 +1,95 @@
+table {
+    border-spacing: 5;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 550px;
+    width: 80%;
+    margin: 10 auto;
+    position: right;
+  }
+  table * {
+    position: right;
+  }
+  table td, table th {
+    padding-left: 10px;
+  }
+  table thead tr {
+    height: 60px;
+    background: #FFED86;
+    font-size: 17px;
+  }
+  table tbody tr {
+    height: 48px;
+    border-bottom: 5px solid #99e74a;
+  }
+  table tbody tr:last-child {
+    border: 10;
+  }
+  table td, table th {
+    text-align: center;
+  }
+  table td.l, table th.l {
+    text-align: right;
+  }
+  table td.c, table th.c {
+    text-align: center;
+  }
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 35.5em) {
+    table {
+      display: block;
+    }
+    table > *, table tr, table td, table th {
+      display: block;
+    }
+    table thead {
+      display: none;
+    }
+    table tbody tr {
+      height: auto;
+      padding: 8px 0;
+    }
+    table tbody tr td {
+      padding-left: 45%;
+      margin-bottom: 12px;
+    }
+    table tbody tr td:last-child {
+      margin-bottom: 0;
+    }
+    table tbody tr td:before {
+      position: absolute;
+      font-weight: 700;
+      width: 40%;
+      left: 10px;
+      top: 0;
+    }
+    table tbody tr td:nth-child(1):before {
+      content: "Country";
+    }
+    table tbody tr td:nth-child(2):before {
+      content: "Happiness Rank 2019";
+    }
+    table tbody tr td:nth-child(3):before {
+      content: "Happiness Score 2019";
+    }
+    table tbody tr td:nth-child(4):before {
+      content: "Happiness Rank 2020";
+    }
+    table tbody tr td:nth-child(5):before {
+      content: "Happiness Score 2020";
+    }
+  }
+  body {
+    font: 400 20px 'Calibri','Arial';
+    padding: 10px;
+  }
+  
+  blockquote {
+    color: white;
+    text-align: center;
+  }
