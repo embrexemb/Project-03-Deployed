@@ -21,7 +21,7 @@ def method():
 
 @app.route('/ml')
 def ml():
-    return render_template('ml.html')
+    return render_template('ML.html')
 
 @app.route('/team')
 def team():
