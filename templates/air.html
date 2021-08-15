@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Air Quality</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://bootswatch.com/5/spacelab/bootstrap.css">
   
@@ -71,90 +71,36 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1>Air Quality Data</h1>
-            <p>Pollutants in the air affect air quality of the air we breath and how we respond to pulmonary disease and asthma</p>
+            <div class="page-header" id="banner">
+            
+              <div class="col-xs-12 col-md-12">
+                <div class="card text-dark mb-3">
+                  <div class="card-header text-white bg-primary"><h1>Comparing Air Pollution Gasses and Substances</h1></div>
+                    
+                      <div class="card-body">
+                    
+                        <p class="card-text">For people the most concerning gas in the earth's atmosphere is Carbon Dioxide - Atmospheric levels of carbon dioxide and prevalent greenhouse gases are at the highest levels ever recorded. Greenhouse gas levels are so high primarily because humans have released them by burning fossil fuels. May 13, 2019...<a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases" target="_blank"><img
+                          src=""><a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases" target="_blank">read more at the Environmental Protection Agency page.</a>.</p>
+                      </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="row">
-
-          <div class="col-md-2">
-            
-            <div class="well">
-              <h5>??????:</h5>
-              <select id="selDataset" onchange="optionChanged(this.value)"></select>
-            </div>
-
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h5 class="panel-title" style="color:aqua">Air Quality Summary</h5>
+            <div class="col-xs-12  col-md-9">
+              <div id="scatter">
+                <!-- We append our chart here. -->
               </div>
-              <div id="sample-metadata" class="panel-body"></div>
-            </div>
-            
-          </div>
-
-          <div class="col-md-5">
-            <!--<div id="bar"><img src="../static/images/daily-pollution.JPG"></div>-->
-          </div>
-
-         
-          <div class="col-md-5">
-            <br><br><br><br>
-            <div class="card text-dark mb-3">
-            <div class="card-header  text-white bg-primary small">Air Quality vs Health</div>
-              <div class="card-header">What are the 3 most harmful greenhouse gases?</div>
-              <div class="card-body">
-                  <p class="card-text">
-                  <ul>
-                    <li class="small">
-                        In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
-                                               
-                           <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
-                           target="popup"
-                           onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
-                           ...read more at EPA.
-                          </a>
-                        
-                      </li>
-                      <li class="small">
-                        There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
-                                              
-                          <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
-                          target="popup"
-                          onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
-                          ...read more at EPA.
-                         </a>
-                       
-                     </li>      
-                  
-                        
-                                      
-                  </ul>
-                  </p>
-              </div>
-          </div>
-
-
-           
-            
-          </div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <div id="bubble"></div>
             </div>
           </div>
-
-      </div>
          
             
 
       <footer id="footer">
         
 
-        <div class="container">
+        
          
         <br/><br/>
       
@@ -184,13 +130,15 @@
     <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://bootswatch.com/_vendor/prismjs/prism.js" data-manual></script>
     <script src="https://bootswatch.com/_assets/js/custom.js"></script>
-    <script src="https://financialmodelingprep.com/api/v3/earnings-surpises/AAPL?apikey=3b360a656ab272acfd49d852ee96ea5c" integrity="sha256-lee+1/jB2+rMzL07Ph4J1F+LUR1UGWb5pyE1mUZGTrs=" crossorigin="anonymous"></script>
+    
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="../static/js/appchanged.js"></script>
     <script src="../static/js/linegraph.js"></script>
-  
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+    <script type="text/javascript" src="./static/js/nyse.js"></script>
 
 
   </body>
