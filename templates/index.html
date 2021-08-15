@@ -10,17 +10,11 @@
     <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(function(){
-            $("#banner2").hide();
-        });
-        $(document).ready(function(){
-
-            $("#Team").click(function(){
-                $("#banner2").slideToggle(2000);
-            });
-        });
-    </script>
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+        <link rel="stylesheet" href="../static/css/style.css">
+    
 
   </head>
   <body>
@@ -70,93 +64,89 @@
    
       <div class="container">
 
+        
+       
+
         <div class="row">
           <div class="col-md-12 jumbotron text-center">
-            <h1>Air Quality Data</h1>
-            <p>Pollutants in the air affect air quality of the air we breath and how we respond to pulmonary disease and asthma</p>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-2">
-            
-            <div class="well">
-              <h5>??????:</h5>
-              <select id="selDataset" onchange="optionChanged(this.value)"></select>
-            </div>
-
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h5 class="panel-title" style="color:aqua">Air Quality Summary</h5>
-              </div>
-              <div id="sample-metadata" class="panel-body"></div>
-            </div>
-            
+            <h1>Air Quality</h1>
+           
           </div>
 
           <div class="col-md-5">
-            <!--<div id="bar"><img src="../static/images/daily-pollution.JPG"></div>-->
+            
+            <div>
+              <select name="data" id="selTable" onchange="optionChanged(this.value)">
+                  <option value="">Select One</option>
+                  <option value="Los Angeles">Los Angeles</option>
+                  <option value="New York">New York</option>
+                  <option value="Raleigh">Raleigh</option>
+              </select>
           </div>
+          <div>
+            <table id="resultTable" border=1>
+                <tbody></tbody>
+            </table>
+        </div>
+            
+            </div>
+            
+            
+         
 
          
-          <div class="col-md-5">
-            <br><br><br><br>
-            <div class="card text-dark mb-3">
-            <div class="card-header  text-white bg-primary small">Air Quality vs Health</div>
-              <div class="card-header">What are the 3 most harmful greenhouse gases?</div>
-              <div class="card-body">
-                  <p class="card-text">
-                  <ul>
-                    <li class="small">
-                        In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
-                                               
-                           <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
-                           target="popup"
-                           onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
-                           ...read more at EPA.
-                          </a>
-                        
-                      </li>
-                      <li class="small">
-                        There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
-                                              
-                          <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
-                          target="popup"
-                          onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
-                          ...read more at EPA.
-                         </a>
-                       
-                     </li>      
+          <div class="col-md-7">
+            <p>
+              What are the 3 most harmful greenhouse gases?
+            </p>
+            <ul>
+              <li class="small">
+                  In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
+                                         
+                     <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                     target="popup"
+                     onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                     ...read more at EPA.
+                    </a>
                   
-                        
-                                      
-                  </ul>
-                  </p>
-              </div>
-          </div>
+                </li>
+                <li class="small">
+                  There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
+                                        
+                    <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                    target="popup"
+                    onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                    ...read more at EPA.
+                   </a>
+                 
+               </li>      
+            
+                  
+                                
+            </ul>
+           
 
-
+       </div>   
            
             
           </div>
 
           <div class="row">
             <div class="col-md-12">
-              <div id="bubble"></div>
+                   
             </div>
           </div>
 
       </div>
          
-            
+     
 
       <footer id="footer">
         
 
         <div class="container">
          
-        <br/><br/>
+        
       
         <div class="row">
           <div class="col-lg-12">
@@ -179,17 +169,24 @@
 
 
     </div> <!--page container-->
+    <canvas id="doughnut-chart" width="300" height="150"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <script src="../static/js/presentation.js"></script>
 
     <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
     <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://bootswatch.com/_vendor/prismjs/prism.js" data-manual></script>
     <script src="https://bootswatch.com/_assets/js/custom.js"></script>
-    <script src="https://financialmodelingprep.com/api/v3/earnings-surpises/AAPL?apikey=3b360a656ab272acfd49d852ee96ea5c" integrity="sha256-lee+1/jB2+rMzL07Ph4J1F+LUR1UGWb5pyE1mUZGTrs=" crossorigin="anonymous"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+   
+    <!--<script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+   
     <script src="../static/js/appchanged.js"></script>
-    <script src="../static/js/linegraph.js"></script>
+    <script src="../static/js/linegraph.js"></script>-->
   
 
 
