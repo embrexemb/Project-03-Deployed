@@ -35,6 +35,9 @@ def air():
 def location():
     return render_template('location.html')
 
+@app.route('/test')
+def test():
+    return render_template('test.html')
    
 if __name__=="__main__":
     app.run(debug=True)
