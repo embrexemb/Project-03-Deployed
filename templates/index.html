@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://bootswatch.com/_vendor/prismjs/themes/prism-okaidia.css">
     <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-       
-    </script>
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        
+        <link rel="stylesheet" href="../static/css/style.css">
+    
 
   </head>
   <body>
@@ -29,7 +31,11 @@
               <div class="dropdown-menu" aria-labelledby="themes">
                
                 <div class="dropdown-divider"></div>
-                <ul>
+                <ul> 
+                  <li>
+                  <a class="dropdown-item" href="{{ url_for('test')}}">Pollutant Visualizations</a>
+                </li>
+
                     <li>
                         <a class="dropdown-item" href="{{ url_for('air')}}">Pollutants</a>
                     </li>
@@ -62,18 +68,89 @@
    
       <div class="container">
 
+        
        
 
-        
-         
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1>Air Quality</h1>
+           
+          </div>
+
+          <div class="col-md-5">
             
+            <div>
+              <select name="data" id="selTable" onchange="optionChanged(this.value)">
+                  <option value="">Select One</option>
+                  <option value="Los Angeles">Los Angeles</option>
+                  <option value="New York">New York</option>
+                  <option value="Raleigh">Raleigh</option>
+              </select>
+          </div>
+          <div>
+            <table id="resultTable" border=1>
+                <tbody></tbody>
+            </table>
+        </div>
+            
+            </div>
+            
+            
+         
+
+         
+          <div class="col-md-7">
+            <p>
+              What are the 3 most harmful greenhouse gases?
+            </p>
+            <ul>
+              <li class="small">
+                  In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
+                                         
+                     <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                     target="popup"
+                     onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                     ...read more at EPA.
+                    </a>
+                  
+                </li>
+                <li class="small">
+                  There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
+                                        
+                    <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                    target="popup"
+                    onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                    ...read more at EPA.
+                   </a>
+                 
+               </li>      
+            
+                  
+                                
+            </ul>
+           
+
+       </div>   
+           
+            
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                   
+            </div>
+          </div>
+
+      </div>
+         
+     
 
       <footer id="footer">
         
 
-        
+        <div class="container">
          
-        <br/><br/>
+        
       
         <div class="row">
           <div class="col-lg-12">
@@ -96,16 +173,25 @@
 
 
     </div> <!--page container-->
+    <canvas id="doughnut-chart" width="300" height="150"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <script src="../static/js/presentation.js"></script>
 
     <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
     <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://bootswatch.com/_vendor/prismjs/prism.js" data-manual></script>
     <script src="https://bootswatch.com/_assets/js/custom.js"></script>
    
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!--<script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
    
+    <script src="../static/js/appchanged.js"></script>
+    <script src="../static/js/linegraph.js"></script>-->
+  
 
 
   </body>
