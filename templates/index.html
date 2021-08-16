@@ -80,53 +80,42 @@
           <div class="row">
 
             <div class="col-md-2">
-              <div class="card text-dark mb-3 ">
-                <div class="card-header small text-white bg-primary"> Choose Pollutant:
-                
-                <div class="well">
-                   <select id="selDataset" onchange="optionChanged(this.value)">
-                    <option>AQI</option></select>
-                </div>
-              </div>
-                <div class="card-body">
-                    <p class="card-text">
-                      <div class="panel panel-primary">
-                        <div class="panel-heading">
-                          <h5 class="panel-title " style="color:aqua">Air Quality Summary</h5>
-                        </div>
-                        <div id="sample-metadata" class="panel-body"></div>
-                    </div>
-                  </p>
-                 </div>
-                </div>
-            </div>
+              
+              <iframe title="Example 6" height="380" src="https://widget.airnow.gov/aq-flag-widget/?z=27713&n=Raleigh,%20NC" style="background-color: white;" width="230"></iframe>
+
+             
+          </div>
   
-            <div class="col-md-5">
-              <div id="bar"><img src="static/images/daily-pollution.JPG"></div>
-            </div>
+           <div class="col-md-2"></div>
   
            
-            <div class="col-md-5">
+            <div class="col-md-8">
               <!-- <br><br><br><br> -->
               <div class="card text-dark mb-3">
-                <div class="card-header  text-white bg-primary small">Air Quality vs Health</div>
+                <div class="card-header  text-white bg-primary small">Air Quality during the Pandemic</div>
                 <div class="card-body">
-                    <p class="card-text">What are the three most harmful greenhouse gases?
+                    <p class="card-text">What affects our Air Quality in the United States?
                      
                     <ul>
-                        <li class="small">
-                          In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
-                                                 
-                             <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                        <li class="small">The top 4 pollutants monitored by EPA for the Air Quality Index
+                          <a href="https://www.epa.gov/criteria-air-pollutants"
                              target="popup"
-                             onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
-                             ...read more at EPA.
+                             onclick="window.open('https://www.epa.gov/criteria-air-pollutants','popup','width=600,height=600'); return false;">
+                             ...read more at EPA.</a>
+                        </li>
+                        <li class="small">
+                          The EPA uses many models to look at air pollution in the United States and make predictions about what could happen
+                                                 
+                             <a href="https://ofmpub.epa.gov/rsig/rsigserver?cmaq_application/public/singlecmaq.html"
+                             target="popup"
+                             onclick="window.open('https://ofmpub.epa.gov/rsig/rsigserver?cmaq_application/public/singlecmaq.html','popup','width=600,height=600'); return false;">
+                             ...This is a CMAQ model of predicted Ozone levels in summer 2012.
                             </a>
                           
                         </li>
                         <li class="small">
-                           There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
-                                                 
+                           
+                              Greenhouse gas emissions are also watched..                   
                              <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
                              target="popup"
                              onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
@@ -136,23 +125,59 @@
                         </li>              
                     </ul>
                     </p>
+                    <p></p>
                 </div>
             </div>
   
-  
+            <div class="card text-dark mb3">
+              <div class="card-header text-white bg-primary small">Air Quality in the United States
+
+              </div>
+              <div class="card-body">
+                <ul>
+                <li>Since 2000 air quality monitoring has become an important data point for making planning decisions for transportation planning, sustainable economic growth and overall emergency management planning.</li>
+
+                <li>
+                  The Community Multiscale Air Quality Modeling System [CMAQ] is promoted and managed by the EPA to help federal, state, local and community agencies access models that represent:
+                  <li>Atmospheric and weather activities</li> 
+                  <li>Emisson models that represent man-made and naturally occuring contributions to the atmosphere </li>
+                  <li>Use air chemistry-transport model[s] to predict the atmospheric fate of air pollutants under varying conditions</li>
+                </li>
+                <a href="https://www.epa.gov/sites/default/files/2017-01/overview_of_science_processes_1_-_master.jpg"
+                target="popup"
+                onclick="window.open('https://www.epa.gov/sites/default/files/2017-01/overview_of_science_processes_1_-_master.jpg','popup','width=600,height=600'); return false;">
+                ...read more about CMAQ systems.
+               </a>
+             </ul>
+              </div>
+                           
+          </div>
              
-              
+              <div class="card text-dark mb3">
+              <div class="card-header text-white bg-primary small">What will Air Quality be like after the COVID-19 pandemic has ended?
+
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li>Many of the EPA models show that Air Quality is affected by many factors</li>                 
+                  <li>The scenarios that come from the predictive model show a mix of positive and negative predictions based on the models</li>
+                  <li>We decided to look at the monitoring data available from the EPA's monitoring sites to see what the raw data could tell us</li>
+                </ul>
+              </div>
+                           
+          </div> 
             </div>
             
         
 
           <div class="row">
-            <div class="col-md-12">
-                  <div id="line_dataviz"></div> 
-            </div>
-          </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
+            
 
-      </div>
+          
+
+       </div>
          
      
       </div>
@@ -202,8 +227,8 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
    
-    <script src="../static/js/appchanged.js"></script>
-    <script src="../static/js/linegraph.js"></script>
+    <script src=""></script>
+    <script src=""></script>
   
 
 

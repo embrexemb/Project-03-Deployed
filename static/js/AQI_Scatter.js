@@ -99,14 +99,14 @@ function styleX(value, chosenXAxis){
    //style based on variable
   //d_close
   if (chosenXAxis === 'd_close'){
-    return `$${value} per share`;
+    return `${value} `;
   }
   //sales
   else if (chosenXAxis === 'sales'){
-    return `$${value} per share`;
+    return `${value}`;
   }
  else {
-   return `$${value} per share`;
+   return `${value}`;
  }
 }
  
@@ -115,27 +115,27 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup){
 // X Labels
   // d_close
    if (chosenXAxis === 'd_close'){
-     var xLabel = 'dailyClose';
+     var xLabel = 'SO2-AQI';
    }
   
    //d_high
    else if (chosenXAxis === 'd_high'){
-     var xLabel = 'dailyHigh';
+     var xLabel = 'NO2-AQI';
    }
    //d_low
    else {
-     var xLabel = 'dailyLow';
+     var xLabel = 'Ozone-AQI';
    }
 
      //Y label
   if (chosenYAxis === 'sales'){
-    var yLabel = 'Sales';
+    var yLabel = 'NO2-ppb';
   } 
   else if (chosenYAxis === 'age'){
-    var yLabel = 'yearsOperation';
+    var yLabel = 'Ozone-ppm';
   }
   else {
-    var yLabel = 'salesVolume';
+    var yLabel = 'SO2-ppb';
   }
   var toolTip = d3.tip()
       .attr('class', 'd3-tip')
@@ -217,7 +217,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('x', 0)
     .attr('y', 20)
     .attr('value', 'd_close')
-    .text('Daily Closed($per share)');
+    .text('SO2 Air Quality');
      
     var d_lowLabel = xLabelsGroup.append('text')
     .classed('aText', true)
@@ -225,7 +225,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('x', 0)
     .attr('y', 40)
     .attr('value', 'd_low')
-    .text('Daily Low($per share)');
+    .text('Ozone Air Quality');
 
     var d_highLabel = xLabelsGroup.append('text')
     .classed('aText', true)
@@ -233,7 +233,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('x', 0)
     .attr('y', 60)
     .attr('value', 'd_high')
-    .text('Daily High($per share)')
+    .text('NO2 Air Quality')
    
     var yLabelsGroup = chartGroup.append('g')
     .attr('transform', `translate(${0 - margin.left / 4}, ${height / 2})`);
@@ -246,7 +246,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('dy', '1em')
     .attr('transform', 'rotate(-90)')
     .attr('value', 'sales')
-    .text('Sales $');
+    .text('Average Daily NO2 ppb');
 
   var volumeLabel = yLabelsGroup.append('text')
     .classed('aText', true)
@@ -256,7 +256,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('dy', '1em')
     .attr('transform', 'rotate(-90)')
     .attr('value', 'volume')
-    .text('Shares Sold');
+    .text('Average Daily SO2 ppb');
 
   var ageLabel = yLabelsGroup.append('text')
     .classed('aText', true)
@@ -266,7 +266,7 @@ d3.csv('../static/data/AQI.csv').then(function (stockData) {
     .attr('dy', '1em')
     .attr('transform', 'rotate(-90)')
     .attr('value', 'age')
-    .text('Yrs in Business');
+    .text('Average Daily Ozone ppm');
 
   //update the toolTip
   var circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);

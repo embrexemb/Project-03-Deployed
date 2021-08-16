@@ -1,0 +1,37 @@
+<div class="card text-dark mb-3">
+                <div class="card-header  text-white bg-primary small">Air Quality during the Pandemic</div>
+                <div class="card-body">
+                    <p class="card-text">What affects our Air Quality in the United States?
+                     
+                    <ul>
+                        <li class="small">The top 4 pollutants monitored by EPA for the Air Quality Index
+                          <a href=""
+                             target="popup"
+                             onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                             ...read more at EPA.
+                        </li>
+                        <li class="small">
+                          In general, fluorinated gases are the most potent and longest-lasting type of greenhouse gases emitted by human activities. 
+                                                 
+                             <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                             target="popup"
+                             onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                             ...read more at EPA.
+                            </a>
+                          
+                        </li>
+                        <li class="small">
+                           There are four main categories of fluorinated gases—hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3).
+                                                 
+                             <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases"
+                             target="popup"
+                             onclick="window.open('https://www.epa.gov/ghgemissions/overview-greenhouse-gases','popup','width=600,height=600'); return false;">
+                             ...read more at EPA.
+                            </a>
+                          
+                        </li>              
+                    </ul>
+                    </p>
+                    <p></p>
+                </div>
+            </div>
