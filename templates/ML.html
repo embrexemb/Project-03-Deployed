@@ -92,8 +92,16 @@
                   By using GPR, the team had confidence that using the raw data reading as a single feature to input, would show measurable patterns that could predict trends.  The prediction results can be plotted to fit ground truth observations to a line that can show a slope and a range of confidence.  
 
                 </ul>
+                <table>
+                  <tr>
+                    <td></td><td>
+                      <img class="card-img-top" src="../static/images/Original/GPR example.png"  alt="GPR">
+                    </td><td></td>
+                  </tr>
+                </table>
                 <ul>
-                  <img class="card-img-top" src="../static/images/GPR example.png"  alt="GPR">
+
+                 
                 </ul>
              
               <p></p>
@@ -137,16 +145,99 @@
                 </li>
              </ul>
                                                   
-              
-              <ul>
-                <img class="card-img-top" src="../static/images/showOpenGraphArticleImage.jpg"  alt="GPR">
-              </ul>
+              <table>
+                <tr>
+                  <td></td><td>
+                    <img class="card-img-top" src="../static/images/showOpenGraphArticleImage.jpg"  alt="GPR">
+                  </td><td></td>
+
+                </tr>
+              </table>
+             
            
             <p></p>
         </div>
     </div>
-         
+    <div class="card text-dark mb-3">
+      <div class="card-header  text-white bg-primary small">Testing Results</div>
+      <div class="card-body">
+          <p class="card-text">
+            <ul>
+              The Log-Marginal-Likelihood is similar to a confidence interval and is part of the prediction results that come from using the Gaussian Process Regression Model.  It is a great tool for pilot studies and can help a team identify promising data in areas that they might not have considered.
+              
+            </ul>
+            <ul>
+              A similar test was done using CO2 data over 60 years for Mauna Loa with GPR.  The results show a clear rise in CO2 however the data had to be graphed over 60 years to catch the trend in a 5 year period and identify the overall results as going up or down.
+                         
+            </ul>
+            <table>
+              <tbody>
+                <tr>
+                  <td></td><td>
+                    <img class="card-img-top" src="../static/images/Use/Normalized Data.png" width="400"   alt="GPR">
+                  </td><td></td>
+                </tr>
+              </tbody>
+            </table>
+             
             
+            <ul>
+              The initial testing over 5 years with one-year gaps in between showed this a similar yearly pattern as the Mauna Loa dataset.  After getting these results we realized we needed to look at data that covered more time to get a better sense of what the overall trends in air quality might be.  It is noted that the United States has good air quality compared to other places in the world.  To add to the data set we already had, we chose to only consider data that came from the EPA to have consistence in the quality of the raw that we were using, even though the earliest data was coming from Kaggle epa datasets.  Our team ran data sets for Ozone, NO2 and PM10 for Los Angeles area, New York City area, Cheyenne area, Raleigh area and Seattle area.  The Ozone results were the best and showed identifiable trends using the data we had readily available.
+            </ul>
+            
+            <table>
+              <tbody>
+                <tr>
+                  <td></td><td>
+                    <img class="card-img-top" src="../static/images/Use/LAGPROZONE.png" width="400"   alt="GPR">
+                  </td><td></td>
+
+                </tr>
+              </tbody>
+               
+              
+            </table>
+           
+        </div>
+  </div> 
+  <div class="card text-dark mb-3">
+    <div class="card-header  text-white bg-primary small">Our Best Results</div>
+    <div class="card-body">
+        <p class="card-text"></p>
+         <table>
+           <tr>
+             <td>Seattle future predicted ozone levels trend up</td>
+             <td>Cheyenne shows predicted ozone shows an increasing upper bound</td>
+            <td>Raleigh shows a trend that is going down</td>
+           </tr>
+           <tr>
+             <td>
+              <div class="small">
+                <img class="card-img-top" src="../static/images/Use/SeattleResultFinal.png"   alt="GPR">
+
+              </div>
+            
+             </td>
+             <td> <img class="card-img-top" src="../static/images/Use/RaleighResultFinal.png"   alt="GPR">
+
+             </td>
+             <td>
+              <img class="card-img-top" src="../static/images/Use/Cheyenne Result Final.png"   alt="GPR">
+
+             </td>
+           </tr>
+          
+         
+         </table>
+
+        <ul>
+           
+           
+        </ul>
+        </p>
+        <p></p>
+    </div>
+</div>
 
       <footer id="footer">
         
