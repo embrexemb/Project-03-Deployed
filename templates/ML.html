@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Machine Learning About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://bootswatch.com/5/spacelab/bootstrap.css">
   
@@ -33,8 +33,7 @@
                   <li>
                     <a class="dropdown-item" href="https://burnettaw.github.io/final-project3/index" target="_blank" >Pollution in Cities</a>
                   </li>
-
-                    <li>
+                  <li>
                         <a class="dropdown-item" href="{{ url_for('air')}}">Pollutants</a>
                     </li>
                     <li>
@@ -66,9 +65,86 @@
    
       <div class="container">
 
-       
+        <div class="card text-dark mb-3">
+          <div class="card-header  text-white bg-primary small">Predicting Air Quality after 2020</div>
+          <div class="card-body">
+              <p class="card-text">
+                <ul>
+                  Our team wanted to find out if air quality improved significantly over the past two to four years.  The current state of health that requires many people to stop interacting in close groups small and large is reported in the news with anecdotal information suggesting that there has been measurable improvement in air quality from 2019 to now. 
+                  
+                </ul>
+                <ul>
+                  Our team focused on datasets from the EPA air quality portal that reports raw monitoring sensor data on a daily basis.  The EPA comes with an initial air quality index result for each pollutant monitored and the formula is published on the support site.  <a href="https://www.epa.gov/outdoor-air-quality-data"
+                  target="popup"
+                  onclick="window.open('https://https://www.epa.gov/outdoor-air-quality-data','popup','width=600,height=600'); return false;">
+                  Air Data</a>
+                             
+                </ul>
+               
+                <ul>
+                  Due to the very short time window, our team decided to focus on a regression model that could provide meaningful results to potentially noisy data.  To get the benefit of some inline data normalization, we chose the Gaussian process regression [GPR] model that is available from scikit-learn. <a href="https://towardsdatascience.com/quick-start-to-gaussian-process-regression-36d838810319"
+                  target="popup"
+                  onclick="window.open('https://towardsdatascience.com/quick-start-to-gaussian-process-regression-36d838810319','popup','width=600,height=600'); return false;">
+                  GPR </a>  
+                </ul>
+                
+                <ul>
+                  By using GPR, the team had confidence that using the raw data reading as a single feature to input, would show measurable patterns that could predict trends.  The prediction results can be plotted to fit ground truth observations to a line that can show a slope and a range of confidence.  
 
-        
+                </ul>
+                <ul>
+                  <img class="card-img-top" src="../static/images/GPR example.png"  alt="GPR">
+                </ul>
+             
+              <p></p>
+          </div>
+      </div>
+
+      <div class="card text-dark mb-3">
+        <div class="card-header  text-white bg-primary small">The Team Approach</div>
+        <div class="card-body">
+            <p class="card-text">
+              <ul>
+               <li>
+                APIs and data saved from APIs were used 
+               </li>
+               <li>
+                Cleaning and processing data required the raw data collected be filtered and collated into different ways of looking at the data
+               </li>
+                <li>
+                  Each city dataset was created to look at NO2, SO2, Ozone, CO and PM10 over 3 years, 10 years and a set going back to 2000
+                </li>
+                <li>
+                  Each City dataset was filtered to look at one pollutant over 3 years, 10 years and back to 2000
+                </li>
+                <li>
+                  The following models were tested to see what would give the best results
+                  <ul>
+                    SVM model with various feature selectiion
+                  </ul>
+                  <ul>
+                    Random Forest Classification with various kernels
+                  </ul>
+                  <ul>
+                    KNN with various kernels
+                  </ul>
+                  <ul>
+                    Logistic Regression with different feature selections and different kernels
+                  </ul>
+                  <ul>
+                    Gaussian Process Regression - using sciket Learn model set up for noise detection and smoothing in input data
+                  </ul>
+                </li>
+             </ul>
+                                                  
+              
+              <ul>
+                <img class="card-img-top" src="../static/images/showOpenGraphArticleImage.jpg"  alt="GPR">
+              </ul>
+           
+            <p></p>
+        </div>
+    </div>
          
             
 
